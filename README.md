@@ -19,6 +19,10 @@
 
 ### 🔗 [Invitation link for Discord](https://discordapp.com/oauth2/authorize?client_id=701838797645807827&scope=bot&permissions=19456)
 
+### Commands
+
+- Get 5 most relevant npm packages : `!npm <your search>`
+
 ## Author
 
 -  **[@HZooly](https://github.com/HZooly)**
