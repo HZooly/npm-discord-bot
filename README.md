@@ -19,7 +19,7 @@
 
 ![GIF](https://github.com/HZooly/npm-discord-bot/blob/master/.github/npm-discord-bot.gif)
 
-### 🔗 [Invitation link for Discord](h  //discordapp.com/oauth2/authorize?client_id=701838797645807827&scope=bot&permissions=19456)
+### 🔗 [Invitation link for Discord](https://discordapp.com/oauth2/authorize?client_id=701838797645807827&scope=bot&permissions=19456)
 
 ### Commands
 
