@@ -17,7 +17,11 @@
 
 > Discord bot that check in NPM registry
 
-### 🏠 [Homepage](https://github.com/HZooly/npm-discord-bot#readme)
+### 🔗 [Invitation link for Discord](https://discordapp.com/oauth2/authorize?client_id=701838797645807827&scope=bot&permissions=19456)
+
+### Commands
+
+- Get 5 most relevant npm packages : `!npm <your search>`
 
 ## Author
 
