@@ -3,7 +3,7 @@ require('dotenv').config()
 const { Client, MessageEmbed } = require('discord.js')
 const client = new Client()
 
-const PREFIX = '!'
+const PREFIX = process.env.PREFIX
 const SEARCH_COMMAND = `${PREFIX}npm`
 
 const buildFields = (package) => {
