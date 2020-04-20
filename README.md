@@ -10,8 +10,8 @@
   <a href="https://github.com/HZooly/npm-discord-bot/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/github/license/HZooly/npm-discord-bot" />
   </a>
-  <a href="https://twitter.com/\_\_zooly" target="_blank">
-    <img alt="Twitter: \_\_zooly" src="https://img.shields.io/twitter/follow/__zooly.svg?style=social" />
+  <a href="https://twitter.com/__zooly" target="_blank">
+    <img alt="Twitter: __zooly" src="https://img.shields.io/twitter/follow/__zooly.svg?style=social" />
   </a>
 </p>
 
