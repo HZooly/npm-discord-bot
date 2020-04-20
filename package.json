@@ -1,0 +1,19 @@
+{
+  "name": "npm-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that check in NPM registry",
+  "main": "src/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HZooly/npm-discord-bot.git"
+  },
+  "author": "torzuoli.hugo@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HZooly/npm-discord-bot/issues"
+  },
+  "homepage": "https://github.com/HZooly/npm-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
