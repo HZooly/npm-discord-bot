@@ -25,6 +25,26 @@
 
 - Get 5 most relevant npm packages : `!npm <your search>`
 
+### Installation
+
+- Create `.env` file
+
+```bash
+cp .env.sample .env
+```
+
+- Install dependencies
+
+```bash
+npm install
+```
+
+- Run
+
+```bash
+npm start
+```
+
 ## Author
 
 -  **[@HZooly](https://github.com/HZooly)**

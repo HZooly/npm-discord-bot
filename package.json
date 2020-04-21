@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Discord bot that check in NPM registry",
   "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HZooly/npm-discord-bot.git"
