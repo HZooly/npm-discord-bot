@@ -6,6 +6,11 @@ const client = new Client()
 const PREFIX = process.env.PREFIX
 const SEARCH_COMMAND = `${PREFIX}npm`
 
+const buildTitle = (resultsNumber) => {
+  if (resultsNumber === 0) return 'No npm packages found'
+  return `Top ${fields.length} for NPM search`
+}
+
 const buildFields = (package) => {
   const fields = []
   if (package) {
@@ -19,6 +24,14 @@ const buildFields = (package) => {
     }
   }
   return fields.join(' - ')
+}
+
+const buildDescription = (search, resultsNumber) => {
+  let description = `**Search**: _"${search}"_`
+  if (resultsNumber > 0) {
+    description +=  `- [see all results](https://www.npmjs.com/search?q=${encodeURIComponent(search)})`
+  }
+  return description
 }
 
 client.on('ready', () => {
@@ -35,8 +48,8 @@ client.on('message', async (message) => {
       const data = await got(`https://api.npms.io/v2/search?q=${search}&size=5`).json()
       const fields = data.results
       const embed = new MessageEmbed()
-        .setTitle(`Top ${fields.length} for NPM search`)
-        .setDescription(`**Search**: _"${search}"_ - [see all results](https://www.npmjs.com/search?q=${encodeURIComponent(search)})`)
+        .setTitle(buildTitle(fields.length))
+        .setDescription(buildDescription(search, fields.length))
         .setColor('#EA2039')
 
       fields.forEach(field => {
