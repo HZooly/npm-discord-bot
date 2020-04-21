@@ -8,7 +8,7 @@ const SEARCH_COMMAND = `${PREFIX}npm`
 
 const buildTitle = (resultsNumber) => {
   if (resultsNumber === 0) return 'No npm packages found'
-  return `Top ${fields.length} for NPM search`
+  return `Top ${resultsNumber} for NPM search`
 }
 
 const buildFields = (package) => {
