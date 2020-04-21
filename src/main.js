@@ -36,7 +36,7 @@ client.on('message', async (message) => {
       const fields = data.results
       const embed = new MessageEmbed()
         .setTitle(`Top ${fields.length} for NPM search`)
-        .setDescription(`**Search**: _"${search}"_ - [see all results](https://www.npmjs.com/search?q=${search})`)
+        .setDescription(`**Search**: _"${search}"_ - [see all results](https://www.npmjs.com/search?q=${encodeURIComponent(search)})`)
         .setColor('#EA2039')
 
       fields.forEach(field => {
